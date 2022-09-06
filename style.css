@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+}
+.container {
+  width: 60%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h5 {
+  font-weight: bold;
+  color: rgb(59, 112, 212);
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.container h2 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.container p {
+  font-size: 16px;
+}
+.password-output {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+input.result {
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  padding: 20px;
+  width: 70%;
+  border: 0px;
+}
+.password-output {
+  position: relative;
+  justify-content: space-between;
+  margin: 20px 0px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+.password-output i {
+  font-size: 20px;
+  margin: 0px 6px;
+  cursor: pointer;
+}
+.password-information {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 20px;
+}
+.password-information h3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: bolder;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.password-catagpry {
+  display: flex;
+}
+.password-catagpry > div > div > div {
+  display: flex;
+  align-items: center;
+}
+.password-catagpry > div > div > div h3 {
+  border: 0px;
+  padding: 0px;
+  margin: 0px 0px 0px 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.password-catagpry > div > div > div {
+  margin-bottom: 10px;
+}
+.password-catagpry > div > div > div input {
+  display: inline-block;
+  cursor: pointer;
+}
+input#uppercase-checkbox {
+  display: flex;
+}
+.password-catagpry > div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.p-length {
+  display: flex;
+  flex-direction: column;
+}
+.p-length p {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.p-length input {
+  margin-bottom: 10px;
+}
+
+button.copy-pass-2 {
+  width: 200px;
+  height: 50px;
+  border-radius: 58px;
+  border: 0px solid gainsboro;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+.password-information button {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  background-color: rgb(221, 34, 34);
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+p.copy-text {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 600;
+  font-size: 18px;
+}
+@media (max-width: 992px) {
+  .container p {
+    text-align: center;
+  }
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container p {
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+  }
+  p.copy-text {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container p {
+    text-align: center;
+  }
+  .container {
+    width: 90%;
+  }
+  p.copy-text {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
